@@ -1,0 +1,59 @@
+.home {
+  height: 90vh;
+  background-color: red, green;
+}
+
+.home-content {
+  padding-top: 5rem;
+  width: 55rem;
+  gap: 3rem;
+}
+.home-content h1 {
+  font-weight: 400;
+  font-size: 6rem;
+}
+.home-content button {
+  width: 12rem;
+  padding: 0.8rem 0;
+  background-color: #1c0dbc;
+  border: 1px solid #1c0dbc;
+}
+.home-content button a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.home-content button:hover a {
+  color: #1c0dbc;
+}
+
+.menus {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 4rem 0;
+}
+.menus .list {
+  max-width: 70rem;
+}
+
+.checkout-wrapper {
+  padding-top: 10rem;
+}
+.checkout-wrapper .checkout {
+  width: 80rem;
+  margin: auto;
+  background-color: wheat;
+  padding: 3rem;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.4509803922);
+  border-radius: 4px;
+}
+.checkout-wrapper .checkout h1 {
+  font-weight: 400;
+  font-size: 3.6rem;
+}
+.checkout-wrapper .checkout h2 {
+  font-weight: 400;
+}/*# sourceMappingURL=main.css.map */

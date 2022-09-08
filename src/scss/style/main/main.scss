@@ -1,0 +1,60 @@
+@import "../../var";
+.home {
+  height: 90vh;
+  background-color: red, green;
+}
+.home-content {
+  padding-top: 5rem;
+  width: 55rem;
+  gap: 3rem;
+
+  h1 {
+    font-weight: 400;
+    font-size: 6rem;
+  }
+  button {
+    width: 12rem;
+    padding: 0.8rem 0;
+    background-color: $primaryColor;
+    border: 1px solid $primaryColor;
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.6rem;
+      font-weight: 500;
+    }
+    &:hover a {
+      color: $primaryColor;
+    }
+  }
+}
+
+// menu page
+
+.menus {
+  width: 100%;
+  height: max-content;
+  padding: 4rem 0;
+  .list {
+    max-width: 70rem;
+  }
+}
+
+.checkout-wrapper {
+  padding-top: 10rem;
+  .checkout {
+    width: 80rem;
+    margin: auto;
+    background-color: wheat;
+    padding: 3rem;
+    box-shadow: 1px 1px 2px 1px #00000073;
+    border-radius: 4px;
+    h1 {
+      font-weight: 400;
+      font-size: 3.6rem;
+    }
+    h2 {
+      font-weight: 400;
+    }
+  }
+}
